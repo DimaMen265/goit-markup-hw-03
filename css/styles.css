@@ -22,7 +22,20 @@
 }
 
 .visually-hidden {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+
+  outline: 0;
+  outline-offset: 0;
 }
 
 h1,
@@ -227,17 +240,6 @@ main {
   margin-bottom: 72px;
 }
 
-.title-one .visually-hidden {
-  font-style: var(--primary-font-style);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: var(--primary-letter-spacing);
-  text-transform: capitalize;
-  color: var(--primary-navy-blue-color);
-}
-
 .condition {
   padding: 120px 0;
 }
@@ -342,16 +344,6 @@ main {
 .portfolio-section {
   padding-top: 96px;
   padding-bottom: 120px;
-}
-
-.portfolio-title .visually-hidden {
-  font-style: var(--primary-font-style);
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: var(--primary-letter-spacing);
-  color: var(--primary-white-color);
 }
 
 .buttons-list {
