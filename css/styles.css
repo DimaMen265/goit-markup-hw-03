@@ -39,6 +39,10 @@ ul {
   padding: 0;
 }
 
+img {
+  display: block;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background: var(--primary-white-color);
