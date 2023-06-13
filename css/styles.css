@@ -21,6 +21,10 @@
   box-sizing: border-box;
 }
 
+.visually-hidden {
+  visibility: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -223,7 +227,7 @@ main {
   margin-bottom: 72px;
 }
 
-.title-one {
+.title-one .visually-hidden {
   font-style: var(--primary-font-style);
   font-weight: 700;
   font-size: 36px;
@@ -232,7 +236,6 @@ main {
   letter-spacing: var(--primary-letter-spacing);
   text-transform: capitalize;
   color: var(--primary-navy-blue-color);
-  visibility: hidden;
 }
 
 .condition {
@@ -341,8 +344,14 @@ main {
   padding-bottom: 120px;
 }
 
-.portfolio-title {
-  visibility: hidden;
+.portfolio-title .visually-hidden {
+  font-style: var(--primary-font-style);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: var(--primary-letter-spacing);
+  color: var(--primary-white-color);
 }
 
 .buttons-list {
