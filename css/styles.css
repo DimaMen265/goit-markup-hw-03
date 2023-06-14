@@ -81,8 +81,6 @@ body {
 .page-header {
   background: var(--primary-white-color);
   border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
-  height: 72px;
 }
 
 .page-header .container {
