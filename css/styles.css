@@ -217,6 +217,7 @@ main {
   border-radius: 4px;
   min-width: 169px;
   height: 56px;
+  padding: 16px 32px;
   margin: 0 auto;
   display: block;
 }
@@ -399,7 +400,6 @@ main {
   letter-spacing: var(--primary-letter-spacing);
   color: var(--primary-navy-blue-color);
   margin-bottom: 8px;
-  margin-left: 16px;
 }
 
 .project-specialty {
@@ -409,6 +409,4 @@ main {
   line-height: var(--primary-line-height);
   letter-spacing: var(--primary-letter-spacing);
   color: var(--primary-slate-color);
-  margin-bottom: 32px;
-  margin-left: 16px;
 }
